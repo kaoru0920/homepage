@@ -96,6 +96,10 @@
 .footer-left p{
     margin-bottom: 8px;
 }
+.profile-picture{
+    width:  180px;
+    height: 180px; 
+}
 .device{
     padding: 90px 0 60px;
     color: #5a5c5f;
