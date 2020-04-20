@@ -104,9 +104,13 @@
     width: 33%;
     margin-top: 35px;
 }
+.device-card :hover{
+    background-color: rgb(224, 172, 172);
+    transition: background-color 0.1s;
+}
 .device-card-inner{
     padding: 25px 30px;
-    background-color: #dbe0e4;
+    background-color: #ebc1c1;
     border-radius: 7px;
     box-shadow: 1px 1px 4px #d2d4d6;
     text-align: center;
@@ -133,6 +137,10 @@
 }
 .link-card{   
     margin-top: 35px;
+}
+.link-card :hover{
+    background-color: yellowgreen;
+    transition: background-color 0.1s;
 }
 .link-card-inner{
     padding: 25px 30px;
@@ -172,11 +180,15 @@
 }
 .account-card-inner{
     padding: 25px 30px;
-    background-color: #dff79e;
+    background-color: skyblue;
     border-radius: 7px;
     box-shadow: 1px 1px 4px #d2d4d6;
     text-align: left;
     margin: 0 20px;
+}
+.account-card :hover{
+    transition: background-color 0.1s;
+    background-color: cornflowerblue;
 }
 .account-image{
     width: 100%;
