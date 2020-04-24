@@ -215,4 +215,5 @@ html{
 }
 .without-underline a{
     text-decoration: none;
+    color: #2f3a44;
 }
